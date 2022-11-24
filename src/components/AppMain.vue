@@ -16,6 +16,6 @@ export default {
 main {
    background-color: var(--neutral-color-600);
    color: var(--neutral-color-100);
-   padding-block: 2rem;
+   padding-block: 4rem;
 }
 </style>

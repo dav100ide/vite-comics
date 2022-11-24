@@ -17,11 +17,11 @@ export default {
                <span>DESCRIPTION</span>
             </li>
             <li>
-               <img src="../assets/img/buy-comics-digital-comics.png" alt="" />
+               <img src="../assets/img/buy-comics-subscriptions.png" alt="" />
                <span>DESCRIPTION</span>
             </li>
             <li>
-               <img src="../assets/img/buy-comics-merchandise.png" alt="" />
+               <img src="../assets/img/buy-comics-shop-locator.png" alt="" />
                <span>DESCRIPTION</span>
             </li>
             <li>
