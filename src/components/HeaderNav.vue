@@ -7,9 +7,6 @@ export default {
 <template>
    <nav>
       <ul>
-         <li class="active">
-            <a href="">active</a>
-         </li>
          <li v-for="i in 10"><a href="">link</a></li>
       </ul>
    </nav>
@@ -23,16 +20,17 @@ ul {
    gap: 2rem;
    font-size: 1.2rem;
    li {
+      border-bottom: 10px solid transparent;
       padding-block: 2rem;
       a {
          text-decoration: none;
          color: var(--neutral-color-900);
       }
-   }
-   li.active {
-      border-bottom: 10px solid var(--primary-color);
-      a {
-         color: var(--primary-color);
+      &:hover {
+         border-bottom-color: var(--primary-color);
+         a {
+            color: var(--primary-color);
+         }
       }
    }
 }
