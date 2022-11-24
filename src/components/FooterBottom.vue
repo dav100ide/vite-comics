@@ -8,4 +8,8 @@ export default {
    <div>bottommm</div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.footer-bottom {
+   z-index: 2;
+}
+</style>

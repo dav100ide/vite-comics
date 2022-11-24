@@ -62,17 +62,21 @@ export default {
             </div>
             <!-- /3rd col -->
          </div>
+         <img src="../assets/img/dc-logo-bg.png" alt="" />
       </div>
    </div>
 </template>
 
 <style lang="scss" scoped>
 .footer-main {
-   position: relative;
+   overflow: hidden;
    padding-block: 4rem;
    background-image: url(../assets/img/footer-bg.jpg);
    background-repeat: no-repeat;
    background-size: cover;
+   .container {
+      position: relative;
+   }
    .row {
       display: flex;
       width: 40%;
@@ -98,17 +102,19 @@ export default {
                   text-decoration: none;
                   font-size: 0.9rem;
                   font-weight: lighter;
+                  &:hover {
+                     text-decoration: underline;
+                  }
                }
             }
          }
       }
    }
-   // big DC log
-   &::after {
-      content: url('../assets/img/dc-logo-bg.png');
+   img {
+      //big dc logo
       position: absolute;
       right: 0;
-      top: 0;
+      top: -10rem;
    }
 }
 </style>
