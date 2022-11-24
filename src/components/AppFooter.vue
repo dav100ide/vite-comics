@@ -13,9 +13,15 @@ export default {
 </script>
 
 <template>
-   <FooterTop />
-   <FooterMain />
-   <FooterBottom />
+   <footer>
+      <FooterTop />
+      <FooterMain />
+      <FooterBottom />
+   </footer>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+footer {
+   color: var(--neutral-color-100);
+}
+</style>

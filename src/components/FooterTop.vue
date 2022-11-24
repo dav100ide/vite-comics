@@ -37,7 +37,6 @@ export default {
 .footer-top {
    padding-block: 2rem;
    background-color: var(--primary-color-300);
-   color: var(--neutral-color-100);
    ul {
       list-style: none;
       display: flex;
