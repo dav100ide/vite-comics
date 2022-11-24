@@ -2,9 +2,13 @@
     VARIABLES
 -------------------*/
 :root {
-    // Colors
-    --primary-color: blue;
-    --secondary-color: green;
-    // Container size
-    --container-size: 62.5rem;
+   // primary colors
+   --primary-color: #0c7cec;
+   --primary-color-300: #0282f9;
+   // neutral colors
+   --neutral-color-100: white;
+   --neutral-color-300: #797979;
+   --neutral-color: #464646;
+   --neutral-color-600: #303030;
+   --neutral-color-900: black;
 }
