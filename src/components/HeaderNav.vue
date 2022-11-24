@@ -23,15 +23,14 @@ ul {
    gap: 2rem;
    font-size: 1.2rem;
    li {
-      padding-block: 2.5rem;
-      border: 10px solid transparent;
+      padding-block: 2rem;
       a {
          text-decoration: none;
          color: var(--neutral-color-900);
       }
    }
    li.active {
-      border-bottom-color: var(--primary-color);
+      border-bottom: 10px solid var(--primary-color);
       a {
          color: var(--primary-color);
       }
