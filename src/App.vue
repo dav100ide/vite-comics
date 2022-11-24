@@ -1,4 +1,5 @@
 <script>
+// import of macro-areas
 import AppHeader from './components/AppHeader.vue';
 
 export default {
