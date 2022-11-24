@@ -13,11 +13,9 @@ export default {
 </script>
 
 <template>
-   <div class="container">
-      <FooterTop />
-      <FooterMain />
-      <FooterBottom />
-   </div>
+   <FooterTop />
+   <FooterMain />
+   <FooterBottom />
 </template>
 
 <style lang="scss" scoped></style>
