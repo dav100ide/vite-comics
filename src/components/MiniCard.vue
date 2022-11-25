@@ -1,12 +1,19 @@
 <template>
    <div class="card">
-      <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX" alt="" />
-      <h5>Superman blah</h5>
+      <img :src="thumb" :alt="name" />
+      <h5>{{ name }}</h5>
    </div>
 </template>
 
 <script>
-export default {};
+// import { stringifyExpression } from '@vue/compiler-core';
+
+export default {
+   props: {
+      thumb: String,
+      name: String,
+   },
+};
 </script>
 
 <style lang="scss" scoped>
