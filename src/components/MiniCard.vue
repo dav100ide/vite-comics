@@ -1,6 +1,6 @@
 <template>
    <div class="card">
-      <img :src="thumb" :alt="name" />
+      <img :src="img" :alt="name" />
       <h5>{{ name }}</h5>
    </div>
 </template>
@@ -10,7 +10,7 @@
 
 export default {
    props: {
-      thumb: String,
+      img: String,
       name: String,
    },
 };

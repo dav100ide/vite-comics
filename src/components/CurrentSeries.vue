@@ -2,7 +2,7 @@
    <section class="current-series">
       <h2>CURRENT SERIES</h2>
       <div class="series">
-         <MiniCard v-for="(serie, index) in series" :thumb="serie.thumb" :name="serie.series" />
+         <MiniCard v-for="(serie, index) in series" :img="serie.thumb" :name="serie.series" />
       </div>
       <button>LOAD MORE</button>
    </section>
