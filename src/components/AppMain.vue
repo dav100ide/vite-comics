@@ -1,21 +1,27 @@
 <script>
+import AppHero from './AppHero.vue';
+import CurrentSeries from './CurrentSeries.vue';
 export default {
    name: 'AppMain',
+   components: {
+      AppHero,
+      CurrentSeries,
+   },
 };
 </script>
 
 <template>
    <main>
+      <AppHero />
       <div class="container">
-         <h1>--> content goes here &lt--</h1>
+         <CurrentSeries />
       </div>
    </main>
 </template>
 
 <style lang="scss" scoped>
 main {
-   background-color: var(--neutral-color-600);
    color: var(--neutral-color-100);
-   padding-block: 4rem;
+   background-color: var(--neutral-color-600);
 }
 </style>
