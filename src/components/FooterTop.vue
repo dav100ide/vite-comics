@@ -10,23 +10,19 @@ export default {
          <ul>
             <li>
                <img src="../assets/img/buy-comics-digital-comics.png" alt="" />
-               <span>DESCRIPTION</span>
+               <span>DC</span>
             </li>
             <li>
                <img src="../assets/img/buy-comics-merchandise.png" alt="" />
-               <span>DESCRIPTION</span>
+               <span>T-SHIRTS</span>
             </li>
             <li>
                <img src="../assets/img/buy-comics-subscriptions.png" alt="" />
-               <span>DESCRIPTION</span>
+               <span>COMICS CARD</span>
             </li>
             <li>
                <img src="../assets/img/buy-comics-shop-locator.png" alt="" />
-               <span>DESCRIPTION</span>
-            </li>
-            <li>
-               <img src="../assets/img/buy-comics-digital-comics.png" alt="" />
-               <span>DESCRIPTION</span>
+               <span>LOCATION</span>
             </li>
          </ul>
       </div>

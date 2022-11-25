@@ -1,13 +1,31 @@
 <script>
 export default {
    name: 'HeaderNav',
+   data() {
+      return {
+         links: [
+            'characters', //
+            'comics',
+            'movies',
+            'tv',
+            'games',
+            'collectibles',
+            'videos',
+            'fans',
+            'news',
+            'shop',
+         ],
+      };
+   },
 };
 </script>
 
 <template>
    <nav>
       <ul>
-         <li v-for="i in 10"><a href="">link</a></li>
+         <li v-for="link in links">
+            <a href="">{{ link }}</a>
+         </li>
       </ul>
    </nav>
 </template>
