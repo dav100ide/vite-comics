@@ -1,7 +1,9 @@
 <template>
    <section class="current-series">
       <h2>CURRENT SERIES</h2>
-      <MiniCard v-for="i in 3" />
+      <div class="series">
+         <MiniCard v-for="i in 12" />
+      </div>
       <button>LOAD MORE</button>
    </section>
 </template>
@@ -95,14 +97,30 @@ export default {
 
 <style lang="scss" scoped>
 .current-series {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
    position: relative;
    padding-block: 4rem;
+
    h2 {
       position: absolute;
       top: 0;
+      left: 0;
       translate: -10% -50%;
       background-color: var(--primary-color);
       padding: 0.5rem 1.5rem;
+   }
+   .series {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 1.25rem;
+      margin: 0 -1rem;
+   }
+
+   button {
+      padding: 0.5rem 3rem;
+      background-color: var(--primary-color);
    }
 }
 </style>
