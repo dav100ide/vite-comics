@@ -34,4 +34,15 @@ export default {
       font-weight: lighter;
    }
 }
+@media (width < 920px) {
+   .card {
+      width: calc(100% / 4);
+   }
+}
+
+@media (width < 600px) {
+   .card {
+      width: calc(100% / 2);
+   }
+}
 </style>
