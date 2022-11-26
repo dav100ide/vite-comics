@@ -2,7 +2,7 @@
    <section class="current-series">
       <h2>CURRENT SERIES</h2>
       <div class="series">
-         <MiniCard v-for="(serie, index) in series" :img="serie.thumb" :name="serie.series" />
+         <MiniCard v-for="serie in series" :img="serie.thumb" :name="serie.series" />
       </div>
       <button>LOAD MORE</button>
    </section>
@@ -121,6 +121,16 @@ export default {
    button {
       padding: 0.5rem 3rem;
       background-color: var(--primary-color);
+   }
+
+   @media (width < 600px) {
+      h2 {
+         position: static;
+         translate: 0;
+      }
+      .current-series {
+         padding: 1rem;
+      }
    }
 }
 </style>

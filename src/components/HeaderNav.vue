@@ -27,12 +27,17 @@ export default {
             <a href="">{{ link }}</a>
          </li>
       </ul>
+      <i>hamburger</i>
    </nav>
 </template>
 
 <style lang="scss" scoped>
+i {
+   display: none;
+}
 ul {
    display: flex;
+   flex-wrap: wrap;
    list-style: none;
    text-transform: uppercase;
    gap: 2rem;
@@ -50,6 +55,16 @@ ul {
             color: var(--primary-color);
          }
       }
+   }
+}
+
+@media (width < 920px) {
+   ul {
+      display: none;
+   }
+
+   i {
+      display: block;
    }
 }
 </style>

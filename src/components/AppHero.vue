@@ -12,4 +12,17 @@ export default {};
    background-image: url('../assets/img/jumbotron.jpg');
    background-position: top;
 }
+
+@media (width < 920px) {
+   .hero {
+      height: 15rem;
+      background-position: top;
+   }
+}
+
+@media (width < 600px) {
+   .hero {
+      display: none;
+   }
+}
 </style>
