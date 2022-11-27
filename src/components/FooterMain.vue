@@ -80,9 +80,13 @@ export default {
    .row {
       display: flex;
       width: 40%;
+      @media (width < 600px) {
+         width: 100%;
+      }
       .col {
          width: calc(100% / 3);
          padding-inline: 1rem;
+
          h3 {
             margin-bottom: 0.8rem;
          }
@@ -115,6 +119,11 @@ export default {
       position: absolute;
       right: 0;
       top: -10rem;
+      @media (width < 600px) {
+         width: 30%;
+         top: auto;
+         bottom: 0;
+      }
    }
 }
 </style>

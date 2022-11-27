@@ -37,10 +37,16 @@ export default {
       list-style: none;
       display: flex;
       justify-content: space-evenly;
+      @media (width < 600px) {
+         flex-wrap: wrap;
+      }
       li {
          display: flex;
          align-items: center;
          gap: 1.5rem;
+         @media (width < 600px) {
+            gap: 0.5rem;
+         }
       }
       img {
          width: 4rem;

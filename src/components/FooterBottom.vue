@@ -41,6 +41,13 @@ export default {
    .container {
       display: flex;
       justify-content: space-between;
+      @media (width < 600px) {
+         flex-direction: column;
+         align-items: center;
+         & button {
+            margin-bottom: 1rem;
+         }
+      }
    }
 }
 button {
@@ -54,6 +61,9 @@ button {
    display: flex;
    align-items: center;
    gap: 1.2rem;
+   @media (width < 600px) {
+      flex-direction: column;
+   }
    h3 {
       color: var(--primary-color);
    }
